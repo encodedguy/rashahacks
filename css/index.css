@@ -1,0 +1,43 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.heading{
+  height: 150px;
+}
+
+
+.headingtext{
+  font-size: 70px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.firstcard{
+  margin-top: 100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.firstcardTitle{
+  font-size: 35px;
+  font-family: 'Piazzolla', serif;
+}
+
+.firstcardText{
+  font-size: 18px;
+  font-family: 'Alegreya', serif;
+}
