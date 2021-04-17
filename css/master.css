@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+}
+
+.toppest{
+  padding-top: 5rem;
+  background-color: #10ddc2;
+  height: 150px;
+}
+
+.toppest:hover{
+  background-color: #00b8a9;
+}
+
+.toppest-rashahacks{
+  display: inline-block;
+  position: absolute;
+  top: 5.4rem;
+  left: 10rem;
+  margin: 0;
+  color: #283149;
+  font-family: 'Comfortaa', cursive;
+  font-size: 3rem;
+}
+
+.toppest-right{
+  display: inline-block;
+  position: relative;
+  left: 40rem;
+  top: 0.3rem;
+}
+
+.toppest-button{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+  color: #283149;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.toppest-button:hover{
+  text-decoration: underline;
+  font-size: 1.25rem;
+  color: #1b1b2f;
+}
+
+.middle{
+  margin: auto;
+  text-align: center;
+  height: 500px;
+  background-color: #a9eee6;
+}
+
+.middle:hover{
+  background-color: #6ef3d6;
+}
+
+h2{
+  font-family: "Mukta", sans-serif;
+  padding-top: 10rem;
+  margin: 0;
+  color: #2a363b;
+  margin-bottom: 2rem;
+}
+
+p{
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+  color: #303a52;
+}
+
+.underlined:hover{
+  text-decoration: line-through;
+}
+
+.bottom{
+  padding-top: 7rem;
+  height: 150px;;
+  background-color: #c6fce5;
+  text-align: center;
+}
+
+.bottom:hover{
+  background-color: #c6f1e7;
+}
+
+.img-icon{
+  width: 2.2rem;
+  margin-left: 3rem;
+}
+
+.img-icon:hover{
+  filter: opacity(80%);
+}
+
+/* For books.html */
+
+.book-one{
+  padding-top: 2rem;
+  background-color: yellow;
+  height: 2rem;
+  padding-bottom: 1rem;
+  background-color: #a9eee6;
+}
+
+.book-two{
+  padding-top: 2rem;
+  background-color: yellow;
+  height: 2rem;
+  padding-bottom: 1rem;
+  background-color: #c6fce5;
+}
+
+.book-name{
+  margin-left: 12rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+.page-number{
+  position: absolute;
+  right: 32rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+}
+
+.book-link{
+  width: 100px;
+  height: 25px;
+  font-family: 'Ubuntu Mono', monospace;
+  position: absolute;
+  right: 10rem;
+}
